@@ -7,9 +7,10 @@
 
 
 .about p {
-    max-width: 400px;
+    max-width: 450px;
     margin: auto;
     text-align: center;
+    padding: 30px 15px;
 }
 
 .about-container {
