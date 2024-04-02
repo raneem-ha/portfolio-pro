@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "title": " Travel company",
+        "desc": "Frontend project for travel booking",
+        "description": "a booking website for reservation system that makes it simple for guests to book and pay for your tours and activities ,this project contains several pages and I developed it by using React js . ",
+        "github": "https://github.com/raneem-ha/raneem-task5-react",
+        "languages": "Html, css and react.js",
+        "image1": "/images/react1.png",
+        "image2": "/images/react2.png"
+    },
+    {
+        "id": 2,
+        "title": "furnitures",
+        "desc": "Frontend project for selling furnitures",
+        "github": "https://github.com/raneem-ha/furniture-project",
+        "description": " this page is for selling furnitures ,It is a responsive project developed to fit all screens ,I developed figma design to frontend page",
+        "languages": "Html and css",
+        "image1": "/images/furniture3.png",
+        "image2": "/images/furniture4.png"
+    },
+    {
+        "id": 3,
+        "title": "Organic products",
+        "desc": "Frontend project for organic products",
+        "github": "https://github.com/raneem-ha/team-6",
+        "description": " this  multipages project is for selling organic products ,it contain 6 pages and It is a responsive project developed to fit all screens",
+        "languages": "Html, css and bootstrap",
+        "image1": "/images/team6-2.png",
+        "image2": "/images/team6-1.png"
+    },
+    {
+        "id": 4,
+        "title": "Home Renting",
+        "desc": "Frontend project for renting homes",
+        "github": "https://github.com/raneem-ha/raneem-task4",
+        "description": " this page is for renting homes ,It is a responsive project develope to fit all screens",
+        "languages": "Html and css",
+        "image1": "/images/project1.png",
+        "image2": "/images/project1.png",
+        "image3": "/images/img1-mobile.png"
+    }
+]
