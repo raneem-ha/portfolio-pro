@@ -1,7 +1,7 @@
 
 import NavBar from './../NavBar/NavBar'
 import Hero from './../Hero/Hero'
-import img from './../../assets/images/WhatsApp_Image.png'
+import img from './../../assets/images/Computer_Science.jpg'
 import cv from './../../assets/cv/Raneem.pdf'
 import Swip from './../swip/Swip'
 import img1 from './../../assets/images/png-transparent-logo-css-css3-thumbnail-removebg-preview.png'
@@ -13,6 +13,7 @@ import img6 from './../../assets/images/ps.png'
 import img7 from './../../assets/images/reactt.png'
 import img8 from './../../assets/images/github.png'
 import img9 from './../../assets/images/bootstrap.png'
+import photo from './../../assets/images/contact.jpg'
 import About from '../home/aboutContainer/About'
 import AboutInfo from '../home/aboutinfo/AboutInfo'
 import Skills from '../home/skills/Skills'
@@ -51,7 +52,7 @@ const Home = () => {
     return (
         <div className={(val) ? "light-mode " : "dark-mode"}>
             <NavBar menu={menu} />
-            <Hero img={img} cv={cv}></Hero>
+            <Hero value={true} image={img} cv={cv}></Hero>
             <Swip images={images}></Swip>
             <About>
 
@@ -79,7 +80,7 @@ const Home = () => {
 
 
             </CardContainer>
-            <Contact></Contact>
+            <Contact image={photo}></Contact>
             <Footer></Footer>
         </div>
     )

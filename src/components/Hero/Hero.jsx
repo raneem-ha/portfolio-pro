@@ -1,10 +1,10 @@
 import './Hero.css'
 
 
-const Hero = ({ img, cv }) => {
+const Hero = ({ image, cv, value }) => {
     return (
 
-        <div className='container'>
+        <div className={(value) ? 'container position b-position' : 'container '} style={{ backgroundImage: `url(${image})` }}>
 
             <div className='left'>
                 <p>Hi I am </p>
@@ -21,9 +21,9 @@ const Hero = ({ img, cv }) => {
 
             </div>
 
-            <div className='photo'>
-                <img src={img}></img>
-            </div>
+            {/*  <div className='photo'>
+                <img src={image}></img>
+            </div> */}
 
 
 

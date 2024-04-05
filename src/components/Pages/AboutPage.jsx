@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './../NavBar/NavBar'
 import Hero from './../Hero/Hero'
-import img from './../../assets/images/WhatsApp_Image.png'
+import img from './../../assets/images/aboutt.jpg'
 import cv from './../../assets/cv/Raneem.pdf'
 import Swip from './../swip/Swip'
 import img1 from './../../assets/images/png-transparent-logo-css-css3-thumbnail-removebg-preview.png'
@@ -32,7 +32,7 @@ const AboutPage = () => {
     return (
         <div className={(val) ? "light-mode " : "dark-mode"}>
             <NavBar menu={menu} />
-            <Hero img={img} cv={cv}></Hero>
+            <Hero value={true} image={img} cv={cv}></Hero>
             <Swip images={images}></Swip>
             <About>
 

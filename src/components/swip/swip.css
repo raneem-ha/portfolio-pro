@@ -41,7 +41,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     position: relative;
     z-index: 4;
 
@@ -62,7 +63,11 @@
 
 
 
-    .info,
+    .info {
+        width: 100vw;
+        border-radius: 0%;
+    }
+
     .info p {
         min-width: 320px;
         position: static;
