@@ -142,7 +142,7 @@ textarea {
 
     background: var(--Primary, #583FBC);
     border-radius: 5px;
-
+    cursor: pointer;
     border: none;
     color: var(--White, #FFF);
     font-family: Montserrat;
