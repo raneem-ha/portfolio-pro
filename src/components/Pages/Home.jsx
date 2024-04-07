@@ -52,7 +52,9 @@ const Home = () => {
     return (
         <div className={(val) ? "light-mode " : "dark-mode"}>
             <NavBar menu={menu} />
-            <Hero value={true} image={img} cv={cv}></Hero>
+            <Hero value={true} image={img} cv={cv} descriprion="I am software engineer lived in Riyadh ,saudi arabia.
+                    I improve and develope websites in line with needs of the organizations
+"></Hero>
             <Swip images={images}></Swip>
             <About>
 

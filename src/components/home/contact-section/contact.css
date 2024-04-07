@@ -33,19 +33,19 @@
     align-items: center;
     gap: 10.014px;
     flex-shrink: 0;
-
+    border-radius: 5px;
     background: var(--Primary, #583FBC);
-
+    cursor: pointer;
     border: none;
 }
 
 .contact-container .contact a {
     color: var(--White, #FFF);
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 19px;
 
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 24.033px;
 }
 

@@ -25,6 +25,7 @@
 @media screen and (max-width: 992px) {
     .footer-container {
         flex-wrap: wrap;
+        height: 60px;
     }
 
     .footer-container .logo {

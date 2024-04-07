@@ -1,7 +1,7 @@
 
 import NavBar from '../NavBar/NavBar'
 import Hero from '../Hero/Hero'
-import img from './../../assets/images/1702017536437.jpeg'
+import img from './../../assets/images/aboutt.jpg'
 import cv from './../../assets/cv/Raneem.pdf'
 import Swip from '../swip/Swip'
 import img1 from './../../assets/images/png-transparent-logo-css-css3-thumbnail-removebg-preview.png'
@@ -36,7 +36,8 @@ const ContantPage = () => {
     return (
         <div className={(val) ? "light-mode " : "dark-mode"}>
             <NavBar menu={menu} />
-            <Hero image={img} cv={cv}></Hero>
+            <Hero image={img} cv={cv} value={true} descriprion="Drop me a line.
+I would like to hear from you."></Hero>
             <Swip images={images}></Swip>
             <ContactMe></ContactMe>
             <Footer></Footer>

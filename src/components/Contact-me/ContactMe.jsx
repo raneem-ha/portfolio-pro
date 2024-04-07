@@ -50,7 +50,7 @@ const CotnactMe = () => {
                 <div className='phone'>
                     <div className='number'><i className="fa fa-volume-control-phone" aria-hidden="true"></i> <span>00966542956307</span></div>
                     <div className='email'><i className="fa fa-envelope" aria-hidden="true"></i><span>raneem.hamzah@gmail.com</span></div>
-                    <div className='map'><i className="fa-solid fa-location-dot"></i><span className='location'><a className={(val) ? "light-mode " : "dark-mode"} href='https://maps.app.goo.gl/Gso4yZ1b4TuGAHmM9'>https://maps.app.goo.gl/Gso4yZ1b4TuGAHmM9</a></span></div>
+                    <div className='map'><i className="fa-solid fa-location-dot"></i><span className='location'><a className={(val) ? "light-mode " : "dark-mode"} href='https://www.google.com/maps/place/Riyadh'>https://www.google.com/maps/place/Riyadh</a></span></div>
                 </div>
                 <div className='social-media'>
                     <div className='out-circle'><a href='https://www.facebook.com/raneem.hamzah'>

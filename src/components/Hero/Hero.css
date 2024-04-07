@@ -1,27 +1,22 @@
 .container {
 
     max-width: 100vw;
-
     padding: 70px 7vw;
-
-    margin-top: 80px;
+    margin-top: 70px;
     object-fit: cover;
+    height: 80vh;
     background-size: cover;
 
-
-
-
-}
-
-.b-position {
     background-position: center;
+
 }
+
+
 
 .container .photo {
     max-width: 45%;
     display: flex;
     justify-content: flex-end;
-
 
 }
 
@@ -40,19 +35,23 @@
     flex-shrink: 0;
 
     background: var(--Primary, #583FBC);
-
+    border-radius: 5px;
+    cursor: pointer;
     border: none;
+
 }
 
 .left a {
     color: var(--White, #FFF);
     font-family: Montserrat;
-    font-size: 18px;
+    font-size: 19px;
 
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 24.033px;
 }
+
+
 
 
 
@@ -72,7 +71,7 @@
 .left h2,
 .description {
     font-family: Montserrat;
-    font-size: 1.125prem;
+    font-size: 1.125rem;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
@@ -80,7 +79,8 @@
 }
 
 .left .name {
-    color: #583FBC;
+    font-weight: 500;
+    color: #b6c5f7;
 }
 
 .left h2 {
@@ -148,6 +148,8 @@
     .photo {
         margin: auto;
     }
+
+
 }
 
 @media screen and (max-width: 400px) {
@@ -175,6 +177,7 @@
 
         background-position: center;
         background-size: cover;
+        margin-bottom: 100px;
     }
 
 

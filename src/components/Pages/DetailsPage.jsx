@@ -3,7 +3,7 @@
 
 import NavBar from './../NavBar/NavBar'
 import Hero from './../Hero/Hero'
-import img from './../../assets/images/WhatsApp_Image.png'
+import img from './../../assets/images/aboutt.jpg'
 import cv from './../../assets/cv/Raneem.pdf'
 import Swip from './../swip/Swip'
 import img1 from './../../assets/images/png-transparent-logo-css-css3-thumbnail-removebg-preview.png'
@@ -37,8 +37,8 @@ const DetailsPage = () => {
     return (
         <div className={(val) ? "light-mode " : "dark-mode"}>
             <NavBar menu={menu} />
-            <Hero img={img} cv={cv}></Hero>
-            <Swip images={images}></Swip>
+            {/*   <Hero image={img} cv={cv} value={true}></Hero>
+            <Swip images={images}></Swip> */}
             {Data?.map((element, index) => {
                 if (element.id == id) {
                     return (

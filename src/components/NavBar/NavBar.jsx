@@ -55,7 +55,7 @@ const NavBar = ({ menu }) => {
           <span onClick={() => { setval(!val) }}>{(val) ? 'Dark mode ' : 'Light mode'}</span>
         </div>
 
-        <button className="menu" onClick={() => { setlist(!list) }}><i className="fa-solid fa-bars"></i></button>
+        <button className="list-r" onClick={() => { setlist(!list) }}><i className="fa-solid fa-bars"></i></button>
 
       </nav>
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import NavBar from './../NavBar/NavBar'
 import Hero from './../Hero/Hero'
-import img from './../../assets/images/Computer_Science.jpg'
+import img from './../../assets/images/aboutt.jpg'
 import cv from './../../assets/cv/Raneem.pdf'
 import Swip from './../swip/Swip'
 import img1 from './../../assets/images/png-transparent-logo-css-css3-thumbnail-removebg-preview.png'
@@ -32,7 +32,8 @@ const Portfolio = () => {
     return (
         <div className={(val) ? "light-mode " : "dark-mode"}>
             <NavBar menu={menu} />
-            <Hero value={true} image={img} cv={cv}></Hero>
+            <Hero value={true} image={img} cv={cv} descriprion='I have selected and mentioned here some of my latest projects to share with you.
+'></Hero>
             <Swip images={images}></Swip>
             <CardContainer>
                 {Data?.map((element, index) => {

@@ -1,18 +1,17 @@
 import './Hero.css'
 
 
-const Hero = ({ image, cv, value }) => {
+const Hero = ({ image, cv, value, descriprion }) => {
     return (
 
         <div className={(value) ? 'container position b-position' : 'container '} style={{ backgroundImage: `url(${image})` }}>
 
             <div className='left'>
-                <p>Hi I am </p>
+                <p >Hi I am </p>
                 <p className='name'>Raneem hamzah</p>
                 <h2>Frontend </h2>
                 <h2 className='eng'> Engineer</h2>
-                <p className='description'>I am software engineer lived in Riyadh ,saudi arabia.
-                    I improve and develope websites in line with needs of the organizations </p>
+                <p className='description'>{descriprion} </p>
                 <button className='cv' >
                     <a href={cv} download={cv}>
                         download cv

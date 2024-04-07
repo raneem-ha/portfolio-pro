@@ -136,7 +136,7 @@ ul a,
 
 
 
-nav .menu {
+nav .list-r {
     width: 24px;
     height: 24px;
     background: none;
@@ -151,6 +151,8 @@ nav .menu {
 
 
 }
+
+
 
 
 
@@ -237,7 +239,7 @@ nav .light i {
         position: static;
     }
 
-    nav .menu {
+    nav .list-r {
         display: block;
     }
 
