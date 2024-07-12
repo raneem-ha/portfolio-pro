@@ -23,9 +23,9 @@ const Details = ({ description, github, languages, title, photo1 }) => {
                         </div>
                         <p className='content' >{description}</p></div>
                     <div className='about-project'>
-                        <div className='title-box' ><h3>Github url</h3>
+                        <div className='title-box' ><h3>Github url</h3><a href={github}><i className="fa-brands fa-square-github"></i></a>
                         </div>
-                        <p className='content' ><a href={github}>{github}</a></p></div>
+                    </div>
                     <div className='about-project'>
                         <div className='title-box' >
                             <h3>languages and techniqes</h3>
