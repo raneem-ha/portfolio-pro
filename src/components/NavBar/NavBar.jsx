@@ -23,8 +23,8 @@ const NavBar = ({ menu }) => {
   }, [val])
 
   return (
-    <div className={(val) ? "light-mode" : "dark-mode"}>
-      <nav className={(val) ? "light-mode" : "dark-mode"} >
+    <div>
+      <nav>
 
         <div className='logo'>
 
@@ -59,7 +59,7 @@ const NavBar = ({ menu }) => {
 
       </nav>
 
-      <div className={(val) ? 'light-mode media-list' : 'dark-mode media-list'} style={{ display: (list) ? "block" : "none" }}>
+      <div className="media-list" style={{ display: (list) ? "block" : "none" }}>
         <i className="fa-solid fa-xmark close" onClick={() => { setlist(!list) }}></i>
 
         <ul className='menu1' >
