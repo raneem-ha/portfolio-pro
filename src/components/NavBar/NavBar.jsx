@@ -24,7 +24,7 @@ const NavBar = ({ menu }) => {
 
   return (
     <div>
-      <nav>
+      <nav className={(val) ? "light-mode " : "dark-mode"}>
 
         <div className='logo'>
 
