@@ -39,8 +39,8 @@ const ContantPage = () => {
             <Hero image={img} cv={cv} value={true} descriprion="Drop me a line.
 I would like to hear from you."></Hero>
             <Swip images={images}></Swip>
-            <ContactMe></ContactMe>
-            <Footer></Footer>
+            <ContactMe />
+            <Footer />
 
         </div >
     )

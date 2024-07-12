@@ -117,7 +117,7 @@ textarea {
 
 form ::placeholder {
     color: #ABABAB;
-    font-style: italic;
+    /*   font-style: italic; */
 
     padding-top: 10px;
 }

@@ -55,7 +55,7 @@ const Portfolio = () => {
 
 
             </CardContainer>
-            <Footer></Footer>
+            <Footer />
         </div>
     )
 }

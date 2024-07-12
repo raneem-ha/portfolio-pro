@@ -49,7 +49,7 @@ const DetailsPage = () => {
                     );
                 }
             })}
-            <Footer></Footer>
+            <Footer />
 
         </div >
     )

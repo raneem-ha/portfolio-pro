@@ -36,11 +36,11 @@ const AboutPage = () => {
             <Swip images={images}></Swip>
             <About>
 
-                <Skills></Skills>
-                <AboutInfo></AboutInfo>
+                <Skills />
+                <AboutInfo />
             </About>
-            <Certificate></Certificate>
-            <Footer></Footer></div>
+            <Certificate />
+            <Footer /></div>
     )
 }
 

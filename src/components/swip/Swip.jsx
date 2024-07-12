@@ -8,11 +8,14 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay';
 import './swip.css';
 import { useRef } from 'react';
+import { ThemeContext } from '../../App'
+import { useContext, useEffect, useState } from 'react'
 
 const swip = ({ images }) => {
+    const { val } = useContext(ThemeContext)
 
     return (
-        <div className='container-info'>
+        <div className={(val) ? "lightm container-info" : "darkm container-info"}>
             <div className='info'>
 
                 <p> I  use these languages and techniqes to design and develope websites

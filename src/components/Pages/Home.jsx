@@ -58,10 +58,10 @@ const Home = () => {
             <Swip images={images}></Swip>
             <About>
 
-                <Skills></Skills>
-                <AboutInfo></AboutInfo>
+                <Skills />
+                <AboutInfo />
             </About>
-            <Certificate></Certificate>
+            <Certificate />
             <CardContainer>
                 {Data?.map((element, index) => {
                     return (
@@ -83,7 +83,7 @@ const Home = () => {
 
             </CardContainer>
             <Contact image={photo}></Contact>
-            <Footer></Footer>
+            <Footer />
         </div>
     )
 }

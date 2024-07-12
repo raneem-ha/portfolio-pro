@@ -1,10 +1,19 @@
 .sw {
     max-width: 98vw;
 
-    background-color: white;
     padding-top: 10px;
 
 }
+
+.lightm {
+    background-color: white;
+}
+
+.darkm {
+    background-color: rgb(11, 11, 11);
+}
+
+
 
 .swiper-wrapper {
 
